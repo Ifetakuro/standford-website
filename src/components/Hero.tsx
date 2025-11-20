@@ -16,7 +16,7 @@ export function Hero() {
       className="min-h-screen relative overflow-hidden bg-gradient-to-br from-pink-50 via-purple-50 to-teal-50"
     >
       {/* Animated Background Elements */}
-      <div className="absolute inset-0 overflow-hidden">
+      <div className="absolute inset-0 overflow-hidden hidden md:block">
         {[...Array(6)].map((_, i) => (
           <motion.div
             key={i}
@@ -84,10 +84,10 @@ export function Hero() {
                 connections.
               </p>
               <p>
-                I want to apply to Stanford's Master's in Design because of a
+                I want to apply to Stanford MS Design Program because of a
                 desire to be more creative and learn how to better collaborate
                 and lead. I want to learn to make products toward bringing
-                people together to make the world more human.
+                people together to make the world more human-centered.
               </p>
             </motion.div>
             <motion.button

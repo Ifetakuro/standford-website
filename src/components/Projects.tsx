@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { useInView } from "framer-motion";
 import { useRef } from "react";
 import {
   ExternalLink,
@@ -16,7 +15,6 @@ import { ImageWithFallback } from "../reuseables";
 
 export function Projects() {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, amount: 0.2 });
 
   const mainProjects = [
     {
@@ -105,7 +103,7 @@ export function Projects() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
@@ -121,7 +119,7 @@ export function Projects() {
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 40 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: index * 0.2 }}
               className={`grid lg:grid-cols-2 gap-8 items-center ${
                 index % 2 === 1 ? "lg:grid-flow-dense" : ""
@@ -175,7 +173,7 @@ export function Projects() {
         {/* Side Projects */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
           className="mt-20"
         >
@@ -193,7 +191,7 @@ export function Projects() {
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 30 }}
-                animate={isInView ? { opacity: 1, y: 0 } : {}}
+                animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.8 + index * 0.1 }}
                 className="group p-8 bg-white rounded-2xl border border-gray-200 hover:border-pink-300 hover:shadow-xl transition-all"
               >
@@ -227,7 +225,7 @@ export function Projects() {
         {/* Community & Mentorship */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1 }}
           className="mt-20 p-8 md:p-12 bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl"
         >

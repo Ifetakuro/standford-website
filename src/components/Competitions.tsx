@@ -1,12 +1,10 @@
 import { motion } from "framer-motion";
-import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { Trophy, Presentation, Users, Zap } from "lucide-react";
 import { Slideshow } from "../reuseables";
 
 export function Competitions() {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, amount: 0.3 });
 
   const competitionsLessons = [
     {
@@ -102,7 +100,7 @@ export function Competitions() {
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           className="text-center mb-20"
         >
@@ -154,7 +152,7 @@ export function Competitions() {
         {/* Lessons */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
           className="max-w-6xl mx-auto"
         >
@@ -166,7 +164,7 @@ export function Competitions() {
               <motion.div
                 key={index}
                 initial={{ opacity: 0, scale: 0.9 }}
-                animate={isInView ? { opacity: 1, scale: 1 } : {}}
+                animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6, delay: 0.8 + index * 0.1 }}
                 className="p-6 rounded-2xl bg-gradient-to-br from-[#376E6F]/40 to-[#1C3334]/40 border border-[#DA7B93]/30 hover:bg-[#DA7B93]/20 hover:scale-105 transition-all duration-300"
               >

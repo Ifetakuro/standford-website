@@ -13,9 +13,9 @@ import {
 
 export default function App() {
   return (
-    <div className="min-h-screen w-ful">
+    <div className="min-h-screen w-full">
       <Navigation />
-      <div className="bg-red-800">
+      <div className="w-full">
         <Hero />
         <About />
         <Projects />

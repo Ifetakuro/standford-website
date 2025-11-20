@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-import { useInView } from "framer-motion";
 import { useRef } from "react";
 import {
   BookOpen,
@@ -14,7 +12,6 @@ import { ImageWithFallback } from "../reuseables";
 
 export function About() {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, amount: 0.3 });
 
   const milestones = [
     {
@@ -64,25 +61,15 @@ export function About() {
   return (
     <section id="about" ref={ref} className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.8 }}
-          className="text-center mb-16"
-        >
+        <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl text-gray-900 mb-6">
             From Accounting to UI/UX Developer
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r to-[#376E6F] from-[#DA7BB3] mx-auto" />
-        </motion.div>
+        </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-start mb-16">
-          <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            animate={isInView ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="space-y-6 text-lg text-gray-600"
-          >
+          <div className="space-y-6 text-lg text-gray-600">
             <p>
               My journey began in accounting, where I learned discipline,
               precision, and structure. But as I worked through numbers, I
@@ -106,14 +93,9 @@ export function About() {
               confusion into understanding. Those lessons still shape how I
               design today.
             </p>
-          </motion.div>
+          </div>
 
-          <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            animate={isInView ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            className="space-y-6 text-lg text-gray-600"
-          >
+          <div className="space-y-6 text-lg text-gray-600">
             <p>
               <span className="text-gray-900">During my NYSC year,</span> I
               participated in competitions that challenged me to apply my skills
@@ -146,17 +128,14 @@ export function About() {
               care. She never called it design, but she always made life easier
               and warmer for others."
             </blockquote>
-          </motion.div>
+          </div>
         </div>
 
         {/* Journey Timeline */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {milestones.map((milestone, index) => (
-            <motion.div
+            <div
               key={index}
-              initial={{ opacity: 0, y: 30 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.6, delay: 0.6 + index * 0.1 }}
               className="relative p-6 bg-gradient-to-br from-gray-50 to-white rounded-2xl border border-gray-200 hover:shadow-lg transition-shadow"
             >
               <div className="w-12 h-12 bg-gradient-to-br from-pink-100 to-purple-100 rounded-xl flex items-center justify-center mb-4">
@@ -164,17 +143,12 @@ export function About() {
               </div>
               <h3 className="text-gray-900 mb-2">{milestone.title}</h3>
               <p className="text-gray-600">{milestone.description}</p>
-            </motion.div>
+            </div>
           ))}
         </div>
 
         {/* Visual Story Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.8, delay: 1 }}
-          className="mt-20 grid md:grid-cols-2 gap-8 items-center"
-        >
+        <div className="mt-20 grid md:grid-cols-2 gap-8 items-center">
           <div className="relative rounded-2xl overflow-hidden shadow-xl">
             <ImageWithFallback
               src={"/assets/volunteer.jpeg"}
@@ -192,7 +166,7 @@ export function About() {
               to listen deeply, collaborate genuinely, and create with purpose.
             </p>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );
