@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { useInView } from "framer-motion";
 import { useRef } from "react";
 import {
   Code,
@@ -12,7 +11,6 @@ import {
 
 export function Toolkit() {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, amount: 0.3 });
 
   const skills = [
     {
@@ -97,7 +95,7 @@ export function Toolkit() {
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
@@ -117,7 +115,7 @@ export function Toolkit() {
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 40 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               whileHover={{ y: -6 }}
               className="group"
@@ -146,7 +144,7 @@ export function Toolkit() {
         {/* Vision Section */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
           className="max-w-4xl mx-auto"
         >
