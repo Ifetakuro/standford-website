@@ -28,7 +28,7 @@ export function Contact() {
       icon: Github,
       label: "GitHub",
       value: "View my code",
-      href: "http://ifetakuro.github.io",
+      href: "https://github.com/Ifetakuro",
       color: "from-gray-700 to-gray-900",
     },
   ];
