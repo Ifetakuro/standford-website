@@ -145,10 +145,11 @@ export function Contact() {
               Thank You for Taking the Time
             </h3>
             <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
-              This website is a window into my creativity, process, and passion
-              for human-centered design. I look forward to the opportunity to
-              learn, unlearn, grow, and contribute to the Stanford design
-              community.
+              This website is a window into my journey, creativity and passion
+              for human centered design. Every choice I have made has prepared
+              me for this next phase of my life. I am excited for the
+              opportunity to learn, unlearn, grow, and add my voice to the
+              Stanford design community.
             </p>
             <a
               href="mailto:oluwafisayotakuro@gmail.com"

@@ -153,7 +153,7 @@ export function Toolkit() {
               Ready to Learn and Lead
             </h3>
             <p className="text-lg text-gray-200 text-center mb-6">
-              At Stanford, I aim to deepen my understanding of design
+              At Stanford, I aim to deepen my understanding of design,
               leadership, ethnographic research, and innovation processes that
               turn empathy into strategy.
             </p>

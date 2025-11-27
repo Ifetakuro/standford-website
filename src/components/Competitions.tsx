@@ -109,9 +109,9 @@ export function Competitions() {
           </h2>
           <div className="w-24 h-1 mx-auto mb-8 bg-gradient-to-r from-[#DA7B93] to-[#376E6F]" />
           <p className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
-            From pitching at NYSC camp to designing for Technovation, every
-            challenge sharpened my empathy, creativity, and leadership through
-            design.
+            From pitching a business proposal at NYSC camp to designing a
+            prototype for Technovation, every challenge has sharpened my
+            empathy, confidence, creativity, and leadership.
           </p>
         </motion.div>
 

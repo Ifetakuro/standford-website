@@ -81,7 +81,7 @@ export function Projects() {
       icon: ShoppingBag,
       description: "Quick commerce service",
       story:
-        "Asapuu was an experiment in speed and connection. I helped design and build both the web and mobile applications, ensuring the experience was fast without feeling mechanical. I also mentored the backend developer, sharing basic frontend principles to strengthen our collaboration. Through this, I learned that leadership in design often comes from openness; helping others grow makes the final product stronger. Asapuu taught me that behind every ‘fast’ experience, there must be a thoughtful structure that keeps users grounded.",
+        "Asapuu was my first mobile application contract. I helped design and build both the web and mobile applications, ensuring the experience was fast without feeling mechanical. I also mentored the backend developer, sharing basic frontend principles to strengthen our collaboration. Through this, I learned that leadership often comes from openness, taking up new tasks and sharing knowledge. Asapuu taught me that behind every ‘fast’ experience, there must be a thoughtful structure that keeps users grounded.",
       link: "https://asapuu.com",
     },
     {
@@ -234,10 +234,9 @@ export function Projects() {
               Community & Mentorship
             </h3>
             <p className="text-lg text-gray-600 mb-6">
-              I participate in local tech bootcamps, mentoring young developers
-              and designers. Helping others discover design and technology has
-              strengthened my communication, leadership, and creative thinking
-              skills.
+              I participate in local tech bootcamps, mentoring young people in
+              tech. Helping them discover technology has strengthened my
+              communication, leadership, and creative thinking skills.
             </p>
             <p className="text-gray-600">
               These experiences remind me that design is not just about creating

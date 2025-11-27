@@ -84,10 +84,10 @@ export function Hero() {
                 connections.
               </p>
               <p>
-                I want to apply to Stanford MS Design Program because of a
-                desire to be more creative and learn how to better collaborate
-                and lead. I want to learn to make products toward bringing
-                people together to make the world more human-centered.
+                I want to apply to Stanford MS Design Program because of my
+                desire to be more creative, learn how to better collaborate and
+                lead. I want to learn to lead beautiful products that touch
+                lives and creates impact.
               </p>
             </motion.div>
             <motion.button

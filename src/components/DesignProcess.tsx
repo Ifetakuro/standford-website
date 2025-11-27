@@ -137,7 +137,7 @@ export function DesignProcess() {
           <div className="p-8 md:p-12 bg-gradient-to-br from-purple-50 via-pink-50 to-teal-50 rounded-3xl">
             <p className="text-xl text-gray-700 mb-6">
               My accounting background taught me structure, and my experience in
-              technology taught me to experiment. Together, they help me design
+              technology taught me to experiment. Together, they help me build
               with both logic and emotion.
             </p>
             <p className="text-2xl text-gray-900">
