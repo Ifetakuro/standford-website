@@ -142,6 +142,7 @@ export function Toolkit() {
         </div>
 
         {/* Vision Section */}
+        {/* Vision Section */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -153,13 +154,30 @@ export function Toolkit() {
               Ready to Learn and Lead
             </h3>
             <p className="text-lg text-gray-200 text-center mb-6">
-              At Stanford, I aim to deepen my understanding of design,
-              leadership, ethnographic research, and innovation processes that
-              turn empathy into strategy.
+              The MS Design Program at Stanford is the environment I have been
+              seeking to refine my approach to complex systems and user centered
+              solutions. Its project based structure and interdisciplinary focus
+              align with how I learn.
+            </p>
+            <p className="text-lg text-gray-200 text-center mb-6">
+              I look forward to contributing to the Stanford community by
+              working with peers on interdisciplinary projects, sharing insights
+              on design for social impact, and mentoring others who aim to
+              create meaningful technology solutions. These experiences have
+              shown the importance of structured design training to expand my
+              impact.
             </p>
             <p className="text-xl text-center text-transparent bg-clip-text bg-gradient-to-r from-[#DA7B93] to-[#376E6F] font-medium">
-              My goal is to design systems that empower communities and shape a
-              future where creativity meets compassion.
+              I am convinced that the hands-on learning culture and
+              interdisciplinary resources in the MS Design Program at Stanford
+              will equip me with the methods and creative leadership needed to
+              design solutions that empower communities. From building small
+              prototypes as a child to translating complex financial systems
+              into clear human centered products, my path has shaped my drive to
+              use design to improve society. Learning from Stanford faculty and
+              working with peers across disciplines will prepare me to grow as a
+              designer and product leader who drives design innovation in
+              Nigeria and across the broader African continent.
             </p>
           </div>
         </motion.div>

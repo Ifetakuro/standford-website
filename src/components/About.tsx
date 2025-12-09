@@ -22,39 +22,38 @@ export function About() {
     },
     {
       icon: Church,
-      title: "Family & Faith",
+      title: "Family and Faith",
       description:
-        "Growing up in a family and church that valued service and community.",
+        "Grew up with values that shaped how I understand service for community.",
     },
     {
       icon: Heart,
       title: "Teaching During Lockdown",
       description:
-        "Taught preschool children, discovering empathy's role in creativity.",
+        "Taught preschool children and discovered empathy as a path to creativity.",
     },
     {
       icon: Award,
       title: "NYSC Competition",
-      description: "Showcased innovation during national service year.",
+      description: "Applied design thinking during my national service year.",
     },
     {
       icon: Building2,
       title: "Interswitch Intern",
       description:
-        "Competed in Technovation, learning structure and collaboration.",
+        "Worked in financial technology and learned how structure and creativity work together.",
     },
-
     {
       icon: Users,
       title: "Tech Communities",
       description:
-        "Joined bootcamps and hackathons, teaching myself frontend development.",
+        "Joined bootcamps and challenges that shaped my thinking in design and front end work.",
     },
     {
       icon: Lightbulb,
       title: "Design Leadership",
       description:
-        "Leading projects that merge design, technology, and purpose.",
+        "Guiding creative work that joins design, technology, and purpose.",
     },
   ];
 
@@ -63,7 +62,7 @@ export function About() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl text-gray-900 mb-6">
-            From Accounting to UI/UX Developer
+            Carton houses to Real World Design
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r to-[#376E6F] from-[#DA7BB3] mx-auto" />
         </div>
@@ -71,67 +70,75 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-12 items-start mb-16">
           <div className="space-y-6 text-lg text-gray-600">
             <p>
-              My journey began in accounting, where I learned discipline,
-              precision, and structure. But as I worked through numbers, I
-              became more curious about individuals, about how creativity and
-              technology could make their lives better.
+              My first design studio was my father’s parlor. I built small
+              houses from empty cartons and sewed dresses for my dolls using my
+              mother’s old scarves. My grandmother used to sew torn pillows and
+              clothes, which i learnt how to sew from. Watching her taught me
+              that the heart of creativity is care and a desire to make life
+              easier for others. She never used the word design yet her work
+              shaped my earliest view of it.
             </p>
+
             <p>
               <span className="text-gray-900">
-                Growing up, my family and church taught me the value of service.
+                My family and church formed my understanding of purpose in
+                creation.
               </span>{" "}
-              Watching my grandmother fix the head dressers, torn pillows and
-              dresses in the house with care, seeing my family support our
-              community, and participating in church activities showed me that
-              the best creations are those that bring people together and make
-              life warmer for others.
+              The values of service and community taught me that any useful idea
+              should bring people together and improve their way of living. I
+              held on to this belief long before I ever learned the formal
+              language of design.
             </p>
+
             <p>
-              During the lockdown, the preschool near my home lost its teachers.
-              I volunteered to teach. The children's curiosity reminded me why
-              creativity matters. I learned patience, empathy, and how to turn
-              confusion into understanding. Those lessons still shape how I
-              design today.
+              When the lockdown began the preschool near my home needed teachers
+              and I volunteered. The curiosity of the children reminded me that
+              clarity comes from simple and warm experiences. I saw how trust
+              grows when learning feels like play. That season shaped how I now
+              design products, systems, and experiences that invite people to
+              understand rather than struggle.
             </p>
           </div>
 
           <div className="space-y-6 text-lg text-gray-600">
             <p>
-              <span className="text-gray-900">During my NYSC year,</span> I
-              participated in competitions that challenged me to apply my skills
-              to real-world problems. Each competition taught me how to think
-              quickly, collaborate under pressure, and create solutions that
-              matter to communities.
-            </p>
-            <p>
-              <span className="text-gray-900">
-                During my internship at Interswitch,
-              </span>{" "}
-              I discovered the power of structure and innovation working
-              hand-in-hand. When the Technovation competition was announced, my
-              team and I built a prototype that we presented to the entire
-              organization. Standing in front of those experienced
-              professionals, I learned that design isn't just about making
-              things, it's about telling stories that inspire action. Trust me,
-              I didnt have the best idea but I was able to own it and lets say i
-              also was able to make the audience nad judges laugh.
+              During my national service year I joined challenges that called
+              for solutions built for real communities. I discovered the point
+              where empathy research and imagination meet to create possibility.
+              It taught me to think quickly collaborate with confidence and
+              develop ideas that speak to real needs. That experience moved
+              design from a personal joy into a tool for change.
             </p>
 
             <p>
-              Today, I lead and collaborate on projects that merge design,
-              leadership, and purpose. Each project is an opportunity to make
-              technology more human, to bridge the gap between what's possible
-              and what people need.
+              <span className="text-gray-900">
+                My internship at Interswitch shaped how I connect design and
+                trust.
+              </span>{" "}
+              I learned how financial systems influence human decisions. During
+              the Technovation challenge we built a prototype for a real need
+              within the organization. Presenting before experienced leaders
+              helped me see that design is a story that inspires action. The
+              room believed in the idea because I believed in it and told its
+              story with clarity.
             </p>
+
+            <p>
+              Today I work on projects that balance structure and imagination.
+              My focus remains on human needs. I believe design bridges the
+              distance between what is possible and what people truly need. Each
+              project is an invitation to make technology feel more human and to
+              help people experience clarity and access in their daily lives.
+            </p>
+
             <blockquote className="border-l-4 border-[#DA7B93] pl-6 italic text-gray-700">
-              "My grandmother's actions taught me that creativity begins with
-              care. She never called it design, but she always made life easier
-              and warmer for others."
+              I transitioned from accounting into product development because
+              finance needs more than perfect models and numbers. It needs
+              products that people trust and understand.
             </blockquote>
           </div>
         </div>
 
-        {/* Journey Timeline */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {milestones.map((milestone, index) => (
             <div
@@ -147,23 +154,23 @@ export function About() {
           ))}
         </div>
 
-        {/* Visual Story Section */}
         <div className="mt-20 grid md:grid-cols-2 gap-8 items-center">
           <div className="relative rounded-2xl overflow-hidden shadow-xl">
             <ImageWithFallback
               src={"/assets/volunteer.jpeg"}
               alt="Community gathering"
-              //   className="w-full h-80 object-cover object-top! grayscale"
               className="w-full object-top h-80 object-cover object-center"
             />
           </div>
           <div className="space-y-4">
             <h3 className="text-3xl text-gray-900">Rooted in Community</h3>
             <p className="text-lg text-gray-600">
-              From church gatherings to tech bootcamps, from family celebrations
-              to hackathons, I've learned that the best design comes from
-              understanding people in their context. My background has taught me
-              to listen deeply, collaborate genuinely, and create with purpose.
+              My journey from family spaces to technology work taught me that
+              great design rises from empathy. From church events to hackathons
+              and from family lessons to product research I learned to listen
+              deeply collaborate with trust and create with intention. Each
+              project is a chance to build design that gives people clarity and
+              access in real time and real spaces.
             </p>
           </div>
         </div>

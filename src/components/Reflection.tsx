@@ -23,14 +23,14 @@ export function Reflection() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <div className="w-24 h-24 bg-gradient-to-br from-pink-500 to-[#DA7B93] rounded-full flex items-center justify-center mx-auto mb-8 shadow-2xl">
+          <div className="w-24 h-24 bg-gradient-to-br from-[#1C3334] via-[#2F4454] to-[#2E151B] rounded-full flex items-center justify-center mx-auto mb-8 shadow-2xl">
             <Quote className="w-12 h-12 text-white" />
           </div>
 
-          <blockquote className="text-3xl md:text-4xl text-gray-800 mb-8 italic leading-relaxed">
-            "My grandmother's actions taught me that creativity begins with
-            care. She never called it design, but she always made life easier
-            and warmer for others."
+          <blockquote className="text-2xl md:text-3xl text-gray-800 mb-8 italic leading-relaxed">
+            "I transitioned from accounting into product development because
+            finance needs more than perfect models and numbers. It needs
+            products that people trust and understand."
           </blockquote>
         </motion.div>
 
@@ -41,51 +41,36 @@ export function Reflection() {
           className="space-y-6 text-lg text-gray-600 mb-12"
         >
           <p>
-            As I watched her growing up, I learned that creativity is not just
-            about aesthetics, its about fixing little things around you, making
-            people around you comfortable, understanding, and making people feel
-            loved.
+            My transition into the technology industry began after I completed
+            my BSc in Accounting with Honors at the University of Lagos,
+            eventually joining Interswitch and applying my analytical skills to
+            product design. This experience shaped how I understand structure,
+            clarity, and responsibility. I worked with financial statements,
+            balance sheets, invoices, bookkeeping records, bank reconciliation
+            statements, and other detailed reports. These tasks trained me to
+            notice patterns, follow the flow of money, and explain information
+            clearly. Over time, I realized that the analytical rigor I had
+            developed complemented the curiosity and problem-solving skills I
+            cultivated as a child, giving me a unique lens for approaching
+            complex challenges.
           </p>
           <p>
-            That's the core philosophy behind everything I do. I am always
-            working to make technology more human through building digital
-            products, leading teams, or mentoring young creators.
+            My work in accounting shaped how I understand value, risk, and the
+            movement of money. This perspective became valuable in financial
+            technology. Many challenges in our products relate to how people
+            understand money or trust a digital system. Because I knew how
+            financial records worked behind the scenes, I could give clear input
+            on how features should display amounts, explain charges, or guide
+            users through risky steps.
           </p>
-          <p className="text-xl text-gray-800">
-            Stanford feels like the next step in that adventure, a place for
-            creativity, leadership and empathy to move design forward.
-          </p>
-        </motion.div>
 
-        {/* Values Grid */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.8, delay: 0.5 }}
-          className="grid md:grid-cols-3 gap-6"
-        >
-          {[
-            {
-              title: "Human-Centered",
-              description: "Designing for real people with real needs",
-            },
-            {
-              title: "Collaborative",
-              description: "Building together is stronger than building alone",
-            },
-            {
-              title: "Impact-Driven",
-              description: "Creating solutions that make a difference",
-            },
-          ].map((value, index) => (
-            <div
-              key={index}
-              className="p-6 bg-white rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow"
-            >
-              <h3 className="text-xl text-gray-900 mb-2">{value.title}</h3>
-              <p className="text-gray-600">{value.description}</p>
-            </div>
-          ))}
+          <p className="text-xl text-gray-800">
+            Stanford is the right place to build my skills. I want to learn from
+            research and leaders who are shaping the future of finance, product,
+            and ethical design. My goal is to create, products that open access,
+            support small groups with big ideas, and build trust one screen at a
+            time.
+          </p>
         </motion.div>
       </div>
     </section>
